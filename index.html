@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-	 
-	<script type="text/javascript"  src="assets/javascript/game.js"></script>
+	 <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	 <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+
 	
 
 </script>
@@ -10,9 +12,29 @@
 	<title></title>
 </head>
 <body>
-	<div id="question">Hangmane</div>
+	<div class="container">
+	<h1>Hangman</h1>
+	<div>
+		<h1 id="question"></h1>
+		
+	</div>
 
-	<p>Please name and artist from Atl</p>
+	<p>Press any key to get Started</p>
+
+	<p>number of guesses remaining</p>
+	<p id="rem"></p>
+
+
+	<p>Letters Already guessed</p>
+	<div >
+		<ul id="myList">
+  			<li></li>
+  			<li></li>
+		</ul>
+</div>
+</div>
+<script type="text/javascript"  src="assets/javascript/game.js"></script>
+
 
 </body>
 </html>
