@@ -39,9 +39,7 @@ document.onkeyup = function(event) {
     console.log(keypressed);
 
     var keyguess = false;
-    if (item[i] !== correct){
-      youWon();
-    }
+    
     
 
 
@@ -85,7 +83,6 @@ function youWon(){
 };
 
 
-youWon();
 
 
 
